@@ -1,3 +1,4 @@
+@media screen and (max-width:320px) {
 .carousel-caption p{
     font-size: $size-320-sec;
     color:$color-primary
@@ -63,8 +64,24 @@ footer{
     background-image: url(../Imagenes/floor-tile.png);
     grid-area: footer;
 }
+.contact{
+    height: 300px;
+    width: 200px;
+}
+.contact-form{
+    background-color: beige;
+    font-size: 11px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
 
-@media screen and (min-width:768px) {
+}
+.enviar {
+    width: 100px;
+}
+}
+@media screen and (min-width:768px)and (max-width:1024px) {
 
 .carousel-slide img{
     height: 200px;
@@ -109,9 +126,17 @@ footer{
     width: 30px;
     height: 30px;
 }
+.contact{
+    height: 300px;
+    width: 400px;
+}
+.contact-form{
+    background-color: beige;
+    font-size: 17px;
+}
 }
 
-@media screen and (min-width:1024px) {
+@media screen and (min-width:1024px) and (max-width:1440px) {
 
 .carousel-slide img{
     height: 450px;
@@ -151,6 +176,14 @@ height: 300px;
 .redes { 
 width: 40px;
 height: 40px;
+}
+.contact{
+    height: 300px;
+    width: 500px;
+}
+.contact-form{
+    background-color: beige;
+    font-size: 20px;
 }
 
 }

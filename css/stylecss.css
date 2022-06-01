@@ -95,64 +95,65 @@ header {
     padding: 0px 5px;
     transition: all .3seg ease-in-out; } }
 
-.carousel-caption p {
-  font-size: 14px;
-  color: rgba(92, 8, 8, 0.753); }
+@media screen and (max-width: 320px) {
+  .carousel-caption p {
+    font-size: 14px;
+    color: rgba(92, 8, 8, 0.753); }
+  .carousel-caption h5 {
+    color: rgba(92, 8, 8, 0.753); }
+  .carousel-slide img {
+    height: 50px; }
+  .carousel-item img {
+    height: 50px; }
+  main {
+    grid-area: main;
+    margin: 1px;
+    padding: 1px; }
+  .image {
+    width: 200px;
+    position: left; }
+  .text {
+    color: black;
+    font-style: italic;
+    font-size: 18px; }
+  .text2 {
+    color: black;
+    font-style: italic;
+    font-size: 14px; }
+  .foot {
+    display: flex; }
+  .foot-1 {
+    align-items: baseline; }
+  .maps {
+    width: 150px;
+    height: 100px; }
+  .redes {
+    width: 20px;
+    height: 20px; }
+  footer {
+    padding: 0px;
+    border: inset;
+    color: black;
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 14px;
+    color: rgba(92, 8, 8, 0.753);
+    background-image: url(../Imagenes/floor-tile.png);
+    grid-area: footer; }
+  .contact {
+    height: 300px;
+    width: 200px; }
+  .contact-form {
+    background-color: beige;
+    font-size: 11px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between; }
+  .enviar {
+    width: 100px; } }
 
-.carousel-caption h5 {
-  color: rgba(92, 8, 8, 0.753); }
-
-.carousel-slide img {
-  height: 50px; }
-
-.carousel-item img {
-  height: 50px; }
-
-main {
-  grid-area: main;
-  margin: 1px;
-  padding: 1px; }
-
-.image {
-  width: 200px;
-  position: left; }
-
-.text {
-  color: black;
-  font-style: italic;
-  font-size: 18px; }
-
-.text2 {
-  color: black;
-  font-style: italic;
-  font-size: 14px; }
-
-.foot {
-  display: flex; }
-
-.foot-1 {
-  align-items: baseline; }
-
-.maps {
-  width: 150px;
-  height: 100px; }
-
-.redes {
-  width: 20px;
-  height: 20px; }
-
-footer {
-  padding: 0px;
-  border: inset;
-  color: black;
-  font-style: italic;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  font-size: 14px;
-  color: rgba(92, 8, 8, 0.753);
-  background-image: url(../Imagenes/floor-tile.png);
-  grid-area: footer; }
-
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1024px) {
   .carousel-slide img {
     height: 200px; }
   .carousel-item img {
@@ -178,9 +179,15 @@ footer {
     height: 200px; }
   .redes {
     width: 30px;
-    height: 30px; } }
+    height: 30px; }
+  .contact {
+    height: 300px;
+    width: 400px; }
+  .contact-form {
+    background-color: beige;
+    font-size: 17px; } }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
   .carousel-slide img {
     height: 450px; }
   .carousel-item img {
@@ -203,7 +210,13 @@ footer {
     height: 300px; }
   .redes {
     width: 40px;
-    height: 40px; } }
+    height: 40px; }
+  .contact {
+    height: 300px;
+    width: 500px; }
+  .contact-form {
+    background-color: beige;
+    font-size: 20px; } }
 
 .card-father {
   display: flex;
