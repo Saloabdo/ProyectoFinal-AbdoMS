@@ -1,3 +1,5 @@
+@media screen and (max-width:320px){
+
 .card-father{
     display: flex;
     flex-direction: row;
@@ -6,13 +8,13 @@
 }
 .card {
     background-color: beige;
-    width: 126px;
+    width: 124px;
     height: auto;
     justify-content: space-between;
 }
 .card-img-top{
-    width: 115px;
-    height: 115px;
+    width: 110px;
+    height: 110px;
     align-items: center;
     margin: none;
     padding: none;
@@ -27,7 +29,8 @@
 .btn{
     font-size: $size-320-sec;
 }
-@media screen and (min-width:768px) {
+}
+@media screen and (min-width:768px)and (max-width:1024px) {
     .card { 
         width: 210px;
         height: auto;
@@ -51,7 +54,7 @@
     }
 }
 
-@media screen and (min-width:1024px)  {
+@media screen and (min-width:1024px) and (max-width:1024px) {
 
     .card { 
         width: 300px;
