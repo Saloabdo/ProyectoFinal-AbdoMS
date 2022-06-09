@@ -1,4 +1,4 @@
-@media screen and (max-width:320px){
+
 body { 
     background-image: url(../Imagenes/floor-tile.png);
     font-family: "Open Sans", Helvetica, sans-serif;
@@ -61,9 +61,9 @@ header{
     background-color: $color-primary;
 }
 
-}
 
-@media screen and (min-width:768px) and (max-width:1024px) {
+
+@media screen and (min-width:768px) {
     body {  
         display: grid;
     grid-template-areas: 
@@ -100,7 +100,7 @@ header{
     
 }
 
-@media screen and (min-width:1024px) and (max-width:1024px) {
+@media screen and (min-width:1024px){
     
     body {  
         display: grid;
